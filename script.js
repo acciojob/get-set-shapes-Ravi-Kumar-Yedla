@@ -50,7 +50,7 @@ constructor(side) {
     this.side = side;
   }
 	getPerimeter(){
-return 4 * this.width;
+return 4 * this.side;
 	}
 }
 
