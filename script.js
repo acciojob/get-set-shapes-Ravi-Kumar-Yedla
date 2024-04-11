@@ -30,8 +30,8 @@
 // }
 class Rectangle {
 	constructor(width,height){
-		this.width= width;
-		this.height=height;
+		this._width= width;
+		this._height=height;
 	}
 	get width(){
 		return this._width;
